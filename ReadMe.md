@@ -6,7 +6,7 @@
 # Noticing when I change interperter to system interperter missing package problem goes away but I
 # need to use my django venv for interperter. Researching. 
 
-# Problem Solved! Heres what happened: we didn't have django installed in the right folder. we needed 
+# Problem Solved! Here's what happened: we didn't have django installed in the right folder. we needed 
 # django in the parent folder for the project because the virtual env will be using django modules. Once
 # I installed django in django-starter i was able to activate the venv and set the interperter path variable 
 # to the djangoenv file with no missing modules. 
